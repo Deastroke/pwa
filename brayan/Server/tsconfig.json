@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+      "target": "es6",                      // Define la versión de JavaScript que quieres usar.
+      "module": "commonjs",                 // Define el sistema de módulos que estás utilizando.
+      "strict": true,                       // Habilita todas las comprobaciones estrictas.
+      "resolveJsonModule": true,           // Permite importar archivos JSON.
+      "esModuleInterop": true,              // Habilita la interoperabilidad entre CommonJS y ES Modules.
+      "skipLibCheck": true,                 // Omite la verificación de tipos en archivos de declaración de librerías.
+      "forceConsistentCasingInFileNames": true // Asegura el uso consistente de mayúsculas y minúsculas en los nombres de archivos.
+    },
+    "include": ["src/**/*"],                // Incluye todos los archivos TypeScript en la carpeta src.
+    "exclude": ["node_modules"]             // Excluye la carpeta node_modules.
+  }
+  
